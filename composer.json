@@ -13,6 +13,18 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+	{
+	    "type": "vcs",
+	    "url": "https://github.com/chris-hamper/DrupalConsole"
+	},
+	{
+            "type": "vcs",
+            "url": "https://github.com/chris-hamper/drupal-console-core"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/chris-hamper/drupal-console-extend-plugin"
         }
     ],
     "require": {
@@ -21,6 +33,7 @@
         "cweagans/composer-patches": "^1.6.5",
         "drupal/core": "^9.0.0",
         "drupal/core-composer-scaffold": "^9.0.0",
+	"drupal/console": "dev-drupal9",
         "drush/drush": "^10.0.0",
         "vlucas/phpdotenv": "^4.0",
         "webflo/drupal-finder": "^1.0.0",
