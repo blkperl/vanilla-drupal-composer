@@ -756,6 +756,6 @@ $settings['entity_update_backup'] = TRUE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 
-if (file_exists('/mnt/site-settings/site2.settings.inc')) {
-  include '/mnt/site-settings/site2.settings.inc';
+if (file_exists('/mnt/env-config/site2.settings.inc')) {
+  include '/mnt/env-config/site2.settings.inc';
 }
